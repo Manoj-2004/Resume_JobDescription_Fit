@@ -3,8 +3,8 @@ from prompts import get_match_prompt
 from evaluator import evaluate_with_gemini
 
 def main():
-    resume_path = "test/Yaswanth_Bellana_Resume.pdf"
-    jd_path = "test/job_description.txt"
+    resume_path = "test/Resume.pdf"
+    jd_path = "test/JD.txt"
 
     resume_text = extract_text_from_pdf(resume_path)
     jd_text = read_text_file(jd_path)
